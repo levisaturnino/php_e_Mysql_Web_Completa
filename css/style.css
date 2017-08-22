@@ -1,0 +1,7 @@
+.topo-pagina {
+    background-image: url(../imagens/imagem-topo-pagina.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 110%;
+    height: 150px;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta content="Site Hotel LOREM IPSUM" name="description">
+    <title>Hotel LOREM IPSUM</title>
+    <link rel="stylesheet" href="css/estilos_gerais.css" type="text/css">
+    <link rel="stylesheet" href="css/estilos_gerais.css" type="text/css">
+    <script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css">
+
+    <script>
+        $(function() {
+            $("#calendario").datepicker({
+                changeMonth: true,
+                changeYear: true,
+                showOtherMonths: true,
+                selectOtherMonths: true,
+                dateFormat: 'dd/mm/yy',
+                dayNames: ['Domingo', 'Segunda', 'Ter�a', 'Quarta', 'Quinta', 'Sexta', 'S�bado', 'Domingo'],
+                dayNamesMin: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S', 'D'],
+                dayNamesShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'S�b', 'Dom'],
+                monthNames: ['Janeiro', 'Fevereiro', 'Mar�o', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro',
+                    'Outubro', 'Novembro', 'Dezembro'
+                ],
+                monthNamesShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez']
+            });
+        });
+    </script>
+
+</head>
+
+<body class="corpo-documento">
+
+    <div class="topo-pagina">
+        <div class="base-pagina">
+            <div class="pagina">
+                <div class="main">
+                    <div class="header">
+                        <div class="header-topo">
+                            <h1>Hotel LOREM IPSUM </h1>
+                            <h2>A rede de hot�is com tudo que voc� precisa para seu descanso e lazer</h2>
+                        </div>
+                        <div class="header-base">
+                            <p>Usu�rio: </p>
+                        </div>
+                        <div class="barra-menu">
+                            <div class="dropdown">
+                                <button class="dropbutton">Consulta</button>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbutton">Cadastro</button>
+
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbutton">Reserva</button>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbutton">Hist�rico</button>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbutton">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="conteudo-corpo">
+                        <div class="coluna-esquerda">
+                            <p>texto coluna esquerda</p>
+                        </div>
+                        <div class="coluna-central" id="conteudo">
+                        </div>
+                        <div class="coluna-direita">
+                            <div class="linha1-coluna-direita">
+                                <div class="calendario" align="center" id="calendario"></div>
+                            </div>
+                            <div class="separacao-linhas"></div>
+                            <div class="linha2-coluna-direita">
+                                <p>texto coluna esquerda</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rodape-pagina">
+                        <div align="center">
+                            <p>&copy; Copyright 2016. Designed by William Pereira Alves</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
